@@ -4,6 +4,7 @@ import { toLoadPromise } from "../lifecycles/load"
 import { toMountPromise } from "../lifecycles/mount"
 import { toUnmountPromise } from "../lifecycles/unmount"
 import { isStarted } from "../start"
+import {} from "./navigatorEvents"
 
 function reroute() {
   const { appsToUnmount,appsToLoad,appsToMount } = getAppChanges()
