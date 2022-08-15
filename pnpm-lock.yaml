@@ -1,0 +1,45 @@
+lockfileVersion: 5.4
+
+specifiers:
+  rollup: ^2.78.0
+  rollup-plugin-serve: ^2.0.1
+
+devDependencies:
+  rollup: 2.78.0
+  rollup-plugin-serve: 2.0.1
+
+packages:
+
+  /fsevents/2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /mime/3.0.0:
+    resolution: {integrity: sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    dev: true
+
+  /opener/1.5.2:
+    resolution: {integrity: sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==}
+    hasBin: true
+    dev: true
+
+  /rollup-plugin-serve/2.0.1:
+    resolution: {integrity: sha512-/9lnzylTMwbXNQUwWAO0DIxW145wl+rmikwFXgujLJ5N9bRfWcjP+qd1XM5wxSiw8ZlBAlFy/n2zRvzcG21bBw==}
+    dependencies:
+      mime: 3.0.0
+      opener: 1.5.2
+    dev: true
+
+  /rollup/2.78.0:
+    resolution: {integrity: sha512-4+YfbQC9QEVvKTanHhIAFVUFSRsezvQF8vFOJwtGfb9Bb+r014S+qryr9PSmw8x6sMnPkmFBGAvIFVQxvJxjtg==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
